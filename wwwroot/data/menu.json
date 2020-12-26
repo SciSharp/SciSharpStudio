@@ -1,0 +1,67 @@
+[
+  {
+    "path": "/dashboard",
+    "name": "Dashboard",
+    "key": "dashboard",
+    "icon": "dashboard",
+    "children": [
+      {
+        "path": "/dashboard/workplace",
+        "name": "Workplace",
+        "key": "dashboard.workplace"
+      }
+    ]
+  },
+  {
+    "path": "/nlp",
+    "name": "Natural Language Processing",
+    "key": "nlp",
+    "children": [
+      {
+        "path": "/dashboard/text-classification",
+        "name": "Text Classification",
+        "key": "nlp.text-classification"
+      },
+      {
+        "path": "/dashboard/ner",
+        "name": "Named Entity Recognition",
+        "key": "nlp.ner"
+      }
+    ]
+  },
+  {
+    "path": "/cv",
+    "name": "Computer Vision",
+    "key": "cv",
+    "children": [
+      {
+        "path": "/dashboard/image-classification",
+        "name": "Image Classification",
+        "key": "cv.image-classification"
+      },
+      {
+        "path": "/dashboard/object-detection",
+        "name": "Object Detection",
+        "key": "cv.object-detection"
+      }
+    ]
+  },
+  {
+    "path": "/account",
+    "name": "My Account",
+    "key": "account",
+    "icon": "user",
+    "children": [
+      {
+        "path": "/account/center",
+        "name": "Profile",
+        "key": "account.center"
+      },
+      {
+        "path": "/account/settings",
+        "name": "Settings",
+        "key": "account.settings"
+      }
+    ]
+  }
+]
